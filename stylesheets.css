@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header{
+    background-image: linear-gradient(rgba(96, 80, 155, 0.952),rgba(88, 89, 170, 0.623),rgba(0,0,0,0.5)),url(bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+    min-height: 400px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: rgba(202, 162, 240, 0.233);
+    color: aquamarine;
+}
+
+ul li.active a{
+    background-color: none;
+    color: white;    
+}
+
+.logo{
+    float: left;
+    width: 100px;
+    height: auto;
+    padding-top: 30px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+
+}
+
+.title h1{
+    color: white;
+    font-size: 50px;
+}
+
+.about{
+    position: absolute;
+    top: 29%;
+    left: 25%;
+}
+
+.about h3{
+    color: white;
+    font-size: 20px;
+}
+
+.objectives h2{
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    color: whitesmoke;
+}
+
+.objectives h3{
+    position: absolute;
+    top: 48%;
+    left: 13%;
+    color: white;
+}
+
+.education h2{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+}
+
+.education h3{
+    position: absolute;
+    top: 65%;
+    left: 13%;
+    color: white;
+}
+
+.personal h2{
+    position: absolute;
+    top: 83%;
+    left: 10%;
+}
+
+.personal h3{
+    position: absolute;
+    top: 89%;
+    left: 13%;
+    color: white;
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: aliceblue;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.sub-menu{
+    display: none;
+    top: 10%;
+    position: relative;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position:  absolute;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
